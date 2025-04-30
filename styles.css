@@ -19,7 +19,7 @@ nav a{
 }
 section.home{
     height: 600px;
-    background: url("bekgron.jpg")
+    background: url("bekgron.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
