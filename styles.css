@@ -81,7 +81,7 @@ section.about img{
     flex-wrap:wrap;
     justify-content: center;
     padding: 20px;
-    gap: 20px;
+    gap: 50px;
     overflow: auto;
     text-align: center;
   }
@@ -92,9 +92,10 @@ section.about img{
     color: blanchedalmond;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
-    width: 30%;
+    width: 20%;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease box-shadow 0.3s ease;
   }
   .card img {
     width: 100%;
@@ -130,7 +131,8 @@ section.about img{
   }
   .card:hover{
     transform: scale(1.05);
-    box-shadow:o 8px 16px #f7eeee;
+    box-shadow: 8px 16px #e7e0e0;
+    transform: perspective(2.0);
   }
   section.contact{
     background-color: rgb(184, 250, 63);
