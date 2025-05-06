@@ -57,6 +57,18 @@ section.about div{
 }
 section.about img{
     height:200px;
+    animation: sway 3s infinite ease-in-out;
+}
+@keyframes sway{
+  0%, 10%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(5deg);
+  }
+  75%{
+    transform: rotate(-5deg);
+  }
 }
 .container {
     background-color: burlywood;
@@ -130,6 +142,18 @@ section.contact div{
 }
 section.contact img{
     height:300px;
+    animation: sway 3s infinite ease-in-out;
+}
+@keyframes sway{
+  0%, 10%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(5deg);
+  }
+  75%{
+    transform: rotate(-5deg);
+  }
 }
 footer{
   background-color: rgb(82, 43, 119);
