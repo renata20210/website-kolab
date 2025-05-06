@@ -17,6 +17,11 @@ nav a{
     text-decoration: none;
     color:white;
 }
+nav a:hover{
+  background-color: #74a7e0;
+  box-shadow: 0 0 5px black;
+  transform: scale(1.05s)
+}
 section.home{
     height: 600px;
     background: url("bekgron.jpg");
